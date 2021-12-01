@@ -1,0 +1,2270 @@
+@media (max-width: 992px){
+    /*---------SLIDER--------*/ 
+
+/*css nvg manual*/
+
+.nvg_manual{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn{
+    border: 1px solid var(--color_uno);
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*css nvg auto*/
+
+.copy1{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 410px;
+}
+
+.copy1 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy1 p{
+    padding: 20px 0px;
+    text-align: left;
+}
+
+
+.copy1 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy2{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 410px;
+}
+
+.copy2 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy2 p{
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.copy2 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy3{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 410px;
+}
+
+.copy3 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy3 p{
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+
+.copy3 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy4{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 410px;
+}
+
+.copy4 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy4 p{
+    padding: 20px 0px;
+    color: white;
+    width: 75%;
+}
+
+
+.copy4 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+
+/*---------INICIO SOBRE NOSOTROS--------*/ 
+
+#sobre{
+    /*outline: sienna solid 1px;*/
+    width: 100%;
+    background: white;
+}
+
+.todo{
+    /*outline: rgb(9, 233, 139) solid 1px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0px 0px 0px;
+}
+
+
+#sobre figure img{
+    /*outline: solid red 2px;*/
+    width: 80%;
+    object-fit: cover;
+    margin-top: 60px;
+}
+
+#sobre .copy{
+    width: 50%;
+    /*outline: solid blue 2px;*/
+
+}
+
+.copy h1{
+    color: var(--color_uno);
+    font-weight: 700;
+    font-size: 2.5em;
+
+    padding: 150px 0px 20px 0px;
+}
+
+.parrafo1_sobre{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 500;
+
+    text-align: justify
+}
+
+.parrafo2_sobre{
+    color: var(--color_siete);
+
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    text-align: justify
+
+}
+
+/*---------FIN SOBRE NOSOTROS--------*/ 
+
+/*---------inicio ropa destacados--------*/
+
+#ropa{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_ropa1{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0 auto;;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ropa1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+.caja_ropa2{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.ropa2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+/*---------fin ropa destacados--------*/
+
+/*---------inicio accesorios destacados--------*/
+
+#accesorios{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_acc1{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0px 0px 0px 45px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.acc1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+.caja_acc2{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0px 0px 0px 45px;
+}
+
+
+/*---------fin accesorios destacados--------*/
+
+/*---------inicio zapatos destacados--------*/
+
+.caja_zap1{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0px 0px 0px 45px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.zap1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+/*---------fin zapatos destacados--------*/
+
+/*---------inicio marcas destacados--------*/
+
+.caja_mar1{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0px 0px 0px 45px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mar1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+.caja_mar2{
+    /*outline: indigo solid 2px;*/
+    width: 20%;
+    padding: 0;
+    margin: 0px 0px 0px 45px;
+}
+
+.mar2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+/*---------fin marcas destacados--------*/
+
+/*---------INICIO TESTIMONIOS--------*/ 
+
+#testimonios h1{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+
+.copy_testi{
+    /*outline: solid white 1px;*/
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.texto_testi{
+    background-color: var(--color_uno);
+    color: white;
+    text-align: center;
+    padding: 50px 60px 50px 60px;
+    justify-content: center;
+}
+
+.texto_testi p{
+    margin: 10px 0px;
+}
+
+
+/*css nvg manual*/
+
+.nvg_manual_tes{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    width: 100%;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*---------FIN TESTIMONIOS--------*/ 
+
+/*---------INICIO CONTADOR--------*/ 
+
+#contador_s{
+    width: 100%;
+    height: 75vh;
+    background-color: var(--color_uno);
+}
+
+/*---------FIN CONTADOR--------*/ 
+
+/*---------INICIO NEWSLETTER--------*/ 
+#contacto h1{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 50px;
+}
+
+.texto_contac{
+    color: white;
+    text-align: center;
+    padding: 70px 60px 50px 60px;
+    
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+.texto_contac p{
+    margin: 0px 0px 50px 0px;
+}
+
+/*---------FIN NEWSLETTER--------*/ 
+
+/*---------INICIO FOOTER--------*/ 
+footer{
+    /*outline: brown 2px solid;*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:var(--color_uno);
+    display: inline-flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+footer div{
+    margin: 60px 0px;
+}
+
+footer
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: var(--color_cuatro);
+}
+
+.super{
+    font-size: 0.8em;
+    margin-top: 70px;
+}
+
+.politica{
+    /*outline: tomato solid 3px;*/
+    width: 170px;
+    text-align: left;
+}
+
+.btn_redes a i{
+    font-size: 1.5em;
+    padding: 0px 2px 0px 2px;
+    height:100%;
+    color:white;
+    transition: 0.4s;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.btn_redes a i:hover{
+    color: var(--color_cuatro);
+}
+
+/*---------FIN FOOTER--------*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    
+    nav{
+        /*outline: 2px rgb(255, 231, 14) solid;*/
+        background:rgb(255, 255, 255);
+        border-bottom: rgba(204, 204, 204, 0.849) solid 1px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index:100;
+        box-shadow: 0px 5px 10px rgba(27, 27, 27, 0.192);
+    
+    
+    }
+    
+    .nav-menu{
+        /*outline: chartreuse 2px solid;*/
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        background-color:rgba(255, 255, 255, 0.884);
+        position: fixed;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        
+        padding: 50px 0px 20px 0px;
+
+        height: calc(60% - 90px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+        color: white;
+    
+    }
+    
+    nav ul li.btn a{
+        /*outline:rgb(247, 182, 4) 1px solid;*/
+        /*background-color: gainsboro;*/
+        text-align: center;
+        font-size: 1.5em;
+        font-weight:600;
+        color: var(--color_uno);
+        text-align: center;
+        margin:5px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        transition: 0.2s;
+    
+    }
+    
+    .logo_nav img{
+        width: 70%;
+        padding: 0;
+        margin: 10px 0px 0px 40px;
+    }
+    
+    nav ul li.redes a i{
+        font-size: 1.5em;
+        color: var(--color_uno);
+        transition: 0.4s;
+        margin: 25px 20px 25px 10px;
+    
+    }
+    
+    nav ul li.redes a i:hover{
+        color: var(--color_cuatro);
+    }
+    
+    nav ul li.btn a:hover , nav ul li.btn a.seleccionado{ 
+        
+        border-bottom: var(--color_cuatro) solid 2px;
+        padding: 0px 20px 1px 20px;
+        
+    }
+    
+    .nav-toggle{
+        display: block;
+    }
+
+    .nav-menu-visible{
+        left: 0%;
+    }
+
+
+/*---------SLIDER--------*/ 
+
+/*css nvg manual*/
+
+.nvg_manual{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn{
+    border: 1px solid var(--color_uno);
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*css nvg auto*/
+
+
+
+.copy1{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 70px;
+    bottom: 410px;
+}
+
+.copy1 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy1 p{
+    padding: 20px 0px;
+    text-align: left;
+}
+
+
+.copy1 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy2{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 70px;
+    bottom: 410px;
+}
+
+.copy2 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy2 p{
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.copy2 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy3{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 70px;
+    bottom: 410px;
+}
+
+.copy3 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+}
+
+.copy3 p{
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+
+.copy3 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy4{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 70px;
+    bottom: 410px;
+}
+
+.copy4 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 1.8em;
+    padding: 0;
+    width: 50%;
+}
+
+.copy4 p{
+    padding: 20px 0px;
+    color: white;
+    width: 40%;
+}
+
+
+.copy4 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+/*---------INICIO SOBRE NOSOTROS--------*/ 
+
+#sobre{
+    /*outline: sienna solid 1px;*/
+    width: 100%;
+    background: white;
+}
+
+.todo{
+    /*outline: rgb(9, 233, 139) solid 1px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+}
+
+
+#sobre figure img{
+    /*outline: solid red 2px;*/
+    width: 70%;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 0;
+}
+
+#sobre .copy{
+    width: 45%;
+    /*outline: solid blue 2px;*/
+    padding: 0px 25px 0px 0px;
+}
+
+.copy h1{
+    color: var(--color_uno);
+    font-weight: 700;
+    font-size: 2em;
+
+    padding: 80px 0px 0px 0px;
+}
+
+.parrafo1_sobre{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 500;
+
+    text-align: justify
+}
+
+.parrafo2_sobre{
+    color: var(--color_siete);
+
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    text-align: justify
+
+}
+
+/*---------FIN SOBRE NOSOTROS--------*/ 
+
+
+/*---------INICIO PRODUCTOS--------*/ 
+
+#productos h1{
+    color:var(--color_uno);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 50px 0px 0px 0px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+#productos figure{
+    /*outline: red 2px solid;*/
+    width: 40%;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+}
+
+#productos ul li a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#productos figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#productos figure p{
+    position: absolute;
+    z-index: 2;
+    padding: 30px 30px 0px 30px;
+    font-weight: 700;
+    color: #474747;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+
+
+/*---------inicio ropa destacados--------*/
+
+#ropa{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_ropa1{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ropa1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+.caja_ropa2{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.ropa2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#ropa div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 20px 5px 0px 0px;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#ropa div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin ropa destacados--------*/
+
+
+/*---------inicio accesorios destacados--------*/
+
+#accesorios{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_acc1{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.acc1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+.caja_acc2{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.acc2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#accesorios div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 20px 5px 0px 0px;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#accesorios div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin accesorios destacados--------*/
+
+/*---------inicio zapatos destacados--------*/
+
+#zapatos{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_zap1{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.zap1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#zapatos div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 20px 5px 0px 0px;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+}
+
+#zapatos div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin zapatos destacados--------*/
+
+/*---------inicio marcas destacados--------*/
+
+#marcas{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_mar1{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mar1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+.caja_mar2{
+    /*outline: indigo solid 2px;*/
+    width: 40%;
+    padding: 0;
+    margin: 0px -5px 0px 60px;
+}
+
+.mar2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#marcas div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 20px 5px 0px 0px;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#marcas div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.secciones .ver{
+    margin: 50px 0px 70px 0px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.secciones .ver button{
+    padding: 15px 25px;
+    background: white;
+    outline: var(--color_uno) solid 1px;
+    border: none;
+    color:var(--color_uno);
+    font-weight:600;
+    cursor: pointer;
+}
+
+.secciones .ver button:hover{
+    background: var(--color_uno);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin marcas destacados--------*/
+
+
+
+/*---------INICIO TESTIMONIOS--------*/ 
+
+
+#testimonios h1{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.copy_testi{
+    /*outline: solid white 1px;*/
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.texto_testi{
+    background-color: var(--color_uno);
+    color: white;
+    text-align: center;
+    padding: 70px 60px 70px 60px;
+    justify-content: center;
+}
+
+
+.texto_testi p{
+    margin: 10px 0px;
+}
+
+
+
+
+/*css nvg manual*/
+
+.nvg_manual_tes{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    width: 100%;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn_tes{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*css nvg auto*/
+
+
+/*---------FIN TESTIMONIOS--------*/ 
+
+/*---------INICIO CONTADOR--------*/ 
+
+#contador_s{
+    width: 100%;
+
+    background-color: var(--color_uno);
+}
+
+.contador{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin: 110px 0px 0px 15px;
+}
+
+.contador_cantidad{
+    font-size: 30px;
+    margin: 20px 0px 15px 0px;
+    font-weight: 700;
+    color: var(--color_cuatro);
+}
+
+
+/*---------FIN CONTADOR--------*/ 
+
+/*---------INICIO NEWSLETTER--------*/ 
+#contacto h1{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+
+.texto_contac{
+    color: white;
+    text-align: center;
+    padding: 70px 60px 50px 60px;
+    
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    
+    
+}
+
+.texto_contac p{
+    margin: 0px 0px 50px 0px;
+}
+
+
+/*---------FIN NEWSLETTER--------*/ 
+
+
+/*---------INICIO FOOTER--------*/ 
+footer{
+    /*outline: brown 2px solid;*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background:var(--color_uno);
+    display: inline-flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+footer div{
+    margin: 60px 0px;
+}
+
+footer
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: var(--color_cuatro);
+}
+
+.super{
+    font-size: 0.8em;
+    margin-top: 70px;
+}
+
+.politica{
+    /*outline: tomato solid 3px;*/
+    width: 170px;
+    text-align: left;
+}
+
+.btn_redes a i{
+    font-size: 1.5em;
+    padding: 0px 5px 0px 5px;
+    height:100%;
+    color:white;
+    transition: 0.4s;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.btn_redes a i:hover{
+    color: var(--color_cuatro);
+}
+
+/*---------FIN FOOTER--------*/ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+    .logo_nav img{
+        width: 60%;
+        padding: 0;
+        margin: 15px 0px 0px 20px;
+    }
+    .nav-toggle{
+
+        display: block;
+        margin: 0px 0px 0px -20px;
+    }
+
+/*---------SLIDER--------*/ 
+
+.carrusel{
+    margin-top: 0px;
+}
+
+
+.slide{
+    /*outline: rgb(255, 0, 221) 1px solid;*/
+    width: 20%;
+    transition: 2s;
+}
+
+.slide{
+    /*outline: rgb(0, 217, 255) 5px solid;*/
+}
+
+/*css nvg manual*/
+
+.nvg_manual{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn{
+    border: 1px solid var(--color_uno);
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+
+/*css nvg auto*/
+
+
+
+.copy1{
+    /*outline: solid seagreen 1px;*/
+    background-color: var(--color_uno);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 25px 20px 25px;
+}
+
+.copy1 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.5em;
+}
+
+.copy1 p{
+    color: white;
+    font-weight: 500;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
+.copy1 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: white;
+    border: none;
+    color: var(--color_uno);
+    font-weight:500;
+
+}
+
+.copy2{
+    background-color: var(--color_uno);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 30px 25px 30px;
+}
+
+.copy2 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.5em;
+}
+
+.copy2 p{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1em;
+}
+.copy2 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: white;
+    border: none;
+    color: var(--color_uno);
+    font-weight:500;
+
+}
+
+.copy3{
+    /*outline: solid seagreen 1px;*/
+    background-color: var(--color_uno);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 30px 25px 30px;
+}
+
+.copy3 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.copy3 p{
+    color: white;
+    padding: 25px 0px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.copy3 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: white;
+    border: none;
+    color: var(--color_uno);
+    font-weight:500;
+
+}
+
+.copy4{
+    /*outline: solid seagreen 1px;*/
+    background-color: var(--color_uno);
+    text-align: center;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 30px 25px 30px;
+}
+.copy4 h1{
+    color: white;
+    font-weight:700;
+    font-size: 1.5em;
+    padding: 0;
+    width: 100%;
+}
+
+.copy4 p{
+    color: white;
+    padding: 25px 0px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 1em;
+}
+.copy4 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: white;
+    border: none;
+    color: var(--color_uno);
+    font-weight:500;
+
+}
+
+
+/*---------INICIO SOBRE NOSOTROS--------*/ 
+
+#sobre{
+    /*outline: sienna solid 1px;*/
+    width: 100%;
+    background: white;
+}
+
+.todo{
+    /*outline: rgb(9, 233, 139) solid 1px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+
+#sobre figure img{
+    /*outline: solid red 2px;*/
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#sobre .copy{
+    width: 90%;
+    /*outline: solid blue 2px;*/
+    margin: 0 auto;
+}
+
+.copy h1{
+    color: var(--color_uno);
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+
+.parrafo1_sobre{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 500;
+
+    text-align: justify
+}
+
+.parrafo2_sobre{
+    color: var(--color_siete);
+
+    padding: 10px 0px;
+    font-size: 1.2em;
+    font-weight: 400;
+
+    text-align: justify
+
+}
+
+/*---------FIN SOBRE NOSOTROS--------*/  
+
+
+/*---------INICIO PRODUCTOS--------*/ 
+
+#productos{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#productos h1{
+    color:var(--color_uno);
+    width: 90%;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 50px 0px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#productos figure{
+
+    /*outline: red 2px solid;*/
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+    
+}
+
+#productos ul li{
+    font-size: 0;
+    /*outline: green 3px solid;*/
+    list-style: none;
+}
+
+#productos figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#productos figure p{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    color: #474747;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+
+/*---------inicio ropa destacados--------*/
+
+#ropa{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#ropa h1{
+    color:var(--color_uno);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#ropa p{
+    color:#474747;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.caja_ropa1{
+    /*outline: indigo solid 2px;*/
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#ropa figure{
+    /*outline: solid green 2px;*/
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+    font-size: 0;
+}
+
+#ropa figure img{
+    /*outline: solid red 2px;*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+}
+
+.ropa1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#ropa div h3{
+    font-size: 1.5em;
+    color: var(--color_uno);
+    padding: 0;
+    margin: 0;
+    
+}
+
+#ropa div p{
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--color_siete);
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.estrellas{
+    /*outline: royalblue solid 1px;*/
+}
+
+.caja_ropa2{
+    /*outline: indigo solid 2px;*/
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.ropa2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+
+#ropa div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 0 auto;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#ropa div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin ropa destacados--------*/
+
+/*---------inicio accesorio destacados--------*/
+
+#accesorios{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#accesorios h1{
+    color:var(--color_uno);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#accesorios p{
+    color:#474747;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.caja_acc1{
+    /*outline: indigo solid 2px;*/
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#accesorios figure{
+    /*outline: solid green 2px;*/
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+    font-size: 0;
+}
+
+#accesorios figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+}
+
+.acc1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#accesorios div h3{
+    font-size: 1.5em;
+    color: var(--color_uno);
+    padding: 0;
+    margin: 0;
+    
+}
+
+#accesorios div p{
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--color_siete);
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+#accesorios div img{
+    margin: 0;
+    padding: 0;
+    /*outline: royalblue solid 1px;*/
+    object-fit: cover;
+}
+
+.caja_acc2{
+    /*outline: indigo solid 2px;*/
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.acc2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+#accesorios div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 0 auto;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#accesorios div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin accesorios destacados--------*/
+
+
+/*---------inicio zapatos destacados--------*/
+
+#zapatos{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#zapatos h1{
+    color:var(--color_uno);
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#zapatos p{
+    color:#474747;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px 0px;
+    font-weight: 700;
+}
+
+.caja_zap1{
+    /*outline: indigo solid 2px;*/
+    width: 70%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#zapatos figure{
+    /*outline: solid green 2px;*/
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.192);
+    font-size: 0;
+}
+
+#zapatos figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-top: 40px;
+}
+
+.zap1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#zapatos div h3{
+    font-size: 1.5em;
+    color: var(--color_uno);
+    padding: 0;
+    margin: 0;
+    
+}
+
+#zapatos div p{
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--color_siete);
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+#zapatos div img{
+    margin: 0;
+    padding: 0;
+    /*outline: royalblue solid 1px;*/
+    object-fit: cover;
+}
+
+
+#zapatos div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 0 auto;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#zapatos div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin zapatos destacados--------*/
+
+/*---------inicio marcas destacados--------*/
+
+#marcas{
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.caja_mar1{
+    /*outline: indigo solid 2px;*/
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.nombre_1{
+    /*outline: solid red 2px;*/
+    margin-bottom: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.mar1{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+
+#marcas div h3{
+    font-size: 1.5em;
+    color: var(--color_uno);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+#marcas div p{
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--color_siete);
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+#marcas div img{
+    margin-bottom: 10px;
+    padding: 0;
+    /*outline: royalblue solid 1px;*/
+    object-fit: cover;
+}
+
+
+.caja_mar2{
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.mar2{
+    /*outline: cadetblue solid 1px;*/
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+}
+
+#marcas div button{
+    /*outline: rgb(225, 65, 65) solid 1px;*/
+    margin: 0 auto;
+    padding: 15px 25px;
+    background: var(--color_uno);
+    border: none;
+    color:white;
+    font-weight:600;
+    cursor: pointer;
+    display: flex;
+
+}
+
+#marcas div button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+/*---------fin marcas destacados--------*/
+
+
+/*---------INICIO TESTIMONIOS--------*/ 
+
+
+#testimonios h1{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.copy_testi{
+    /*outline: solid white 1px;*/
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.texto_testi{
+    background-color: var(--color_uno);
+    color: white;
+    text-align: center;
+    padding: 50px 60px 50px 60px;
+
+    justify-content: center;
+}
+
+
+
+/*css nvg manual*/
+
+.nvg_manual_tes{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*css nvg auto*/
+
+
+
+/*---------FIN TESTIMONIOS--------*/ 
+
+/*---------INICIO CONTADOR--------*/ 
+
+#contador_s{
+    width: 100%;
+    height: 190vh;
+    background-color: var(--color_uno);
+}
+
+.contador{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: 110px 0px 0px 0px;
+}
+
+.contador_cantidad{
+    font-size: 30px;
+    margin: 20px 0px 15px 0px;
+    font-weight: 700;
+    color: var(--color_cuatro);
+}
+
+/*---------FIN CONTADOR--------*/ 
+
+/*---------INICIO NEWSLETTER--------*/ 
+#contacto h1{
+    color:white;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding:40px 0px 0px 0px ;
+}
+
+.texto_contac{
+    color: white;
+    text-align: center;
+    padding: 70px 20px 50px 20px;
+    
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*---------FIN NEWSLETTER--------*/ 
+
+/*---------INICIO FOOTER--------*/ 
+footer{
+    /* outline: brown 2px solid;*/
+    width: 100%;
+    background:var(--color_uno);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 10px 0px 10px;
+}
+
+footer .politica{
+    /*outline: brown 2px solid;*/
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.super a{
+    /*outline: brown 2px solid;*/
+    margin: 0 auto;
+}
+
+footer .btn_redes{
+    /*outline: brown 2px solid;*/
+    margin-top: -10px;
+    width: 100%;
+    padding: 0;
+}
+
+
+/*---------FIN FOOTER--------*/ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
