@@ -1,0 +1,259 @@
+/*---------FUENTES--------*/ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.carrusel{
+}
+
+.slider{
+    /*outline: orangered 2px solid;*/
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slides{
+    /*outline: rgb(0, 255, 157) 2px solid;*/
+    width: 500%;
+    height: 100vh;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    /*outline: rgb(255, 0, 221) 1px solid;*/
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    /*outline: rgb(0, 217, 255) 5px solid;*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+/*css nvg manual*/
+
+.nvg_manual{
+    /*outline: rgb(38, 0, 255) 3px solid;*/
+    position: absolute;
+    width: 100%;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual_btn{
+    border: 1px solid var(--color_uno);
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual_btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual_btn:hover{
+    background: var(--color_uno);
+}
+
+#radio1:checked ~ .uno{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .uno{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .uno{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .uno{
+    margin-left: -60%;
+}
+
+/*css nvg auto*/
+
+
+
+.navegacion_auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navegacion_auto .auto_btn1{
+    background: var(--color_uno);
+}
+
+#radio2:checked ~ .navegacion_auto .auto_btn2{
+    background: var(--color_uno);
+}
+
+#radio3:checked ~ .navegacion_auto .auto_btn3{
+    background: var(--color_uno);
+}
+
+#radio4:checked ~ .navegacion_auto .auto_btn4{
+    background: var(--color_uno);
+}
+
+.copy1{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 450px;
+}
+
+.copy1 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 2em;
+    padding: 0;
+}
+
+.copy1 p{
+    padding: 15px 0px;
+}
+
+
+.copy1 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy1 button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.copy2{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 450px;
+}
+
+.copy2 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 2em;
+    padding: 0;
+}
+
+.copy2 p{
+    padding: 15px 0px;
+    width: 35%;
+}
+
+.copy2 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy2 button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.copy3{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 450px;
+}
+
+.copy3 h1{
+    color: white;
+    font-weight:700;
+    font-size: 2em;
+    padding: 0;
+}
+
+.copy3 p{
+    padding: 15px 0px;
+    color: white;
+}
+
+.copy3 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+
+}
+
+.copy3 button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
+
+.copy4{
+    /*outline: solid seagreen 1px;*/
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding: 0px 0px 0px 80px;
+    bottom: 450px;
+}
+
+.copy4 h1{
+    color: var(--color_uno);
+    font-weight:700;
+    font-size: 2em;
+    padding: 0;
+}
+
+.copy4 p{
+    padding: 15px 0px;
+    color: white;
+}
+
+.copy4 button{
+    margin: 10px 0px;
+    padding: 15px 15px;
+    background: var(--color_uno);
+    border: none;
+    color: white;
+    font-weight:500;
+}
+
+.copy4 button:hover{
+    background: var(--color_tres);
+    color: white;
+    transition: 0.5s;
+    border-radius: 2px;
+}
